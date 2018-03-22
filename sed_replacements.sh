@@ -10,7 +10,7 @@ sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Referenc
 sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/findit.gif"[032018-graphics/findit.png[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
 sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/mast_bluespacer.gif"[032018-graphics/mast_bluespacer.png[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
 sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/mast_topright.gif"[032018-graphics/mast_topright.png[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
-sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/masthead.gif"[032018-graphics/masthead.png[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
+sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/masthead.jpg"[032018-graphics/masthead.png[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
 
 # Noted for reference... I don't actually have a randomizer in place for the rest of these
 # 032018-graphics/mast_topright_avohkii.png
