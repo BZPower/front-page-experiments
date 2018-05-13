@@ -36,7 +36,14 @@ sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Referenc
 # Replace an unneeded image with a generic one
 sed -i 's["BZPower%20-%20Bionicle%E2%84%A2%20and%20LEGO%C2%AE%20News,%20Reference%20and%20Discussion_files/bg_topleft.gif"["032018-graphics/bg_left.png"[g' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
 
-
+# Remove useless outdated amazon affiliate code
+sed -i '/^.*amzn.*$/d' BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html
+sed -i BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.html -e '
+/<!-- <script/ {
+    N
+    N
+    /<!-- <script.*\n.*\n.*amazon/d
+}'
 
 
 
