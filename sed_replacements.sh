@@ -45,8 +45,9 @@ sed -i BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion.
     /<!-- <script.*\n.*\n.*amazon/d
 }'
 
-
-
+# Change the CSS
+# This will make the code even messier, since it rips the red from the "redfoot" and "redleft" classes...
+sed -i BZPower\ -\ Bionicle™\ and\ LEGO®\ News\,\ Reference\ and\ Discussion_files/bzpower.css -e 's/#990000/#336699/'
 
 
 
