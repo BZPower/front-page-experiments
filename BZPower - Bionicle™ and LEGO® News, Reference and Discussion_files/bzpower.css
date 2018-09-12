@@ -25,12 +25,10 @@ a:hover { text-decoration:underline; color:#000000 }
 .redfoot {background-color: #336699; padding: 4px; text-align: center; font: 9px Arial, Helvetica; color: #FFFFFF}
 .bluefoot {background-color: #336699; font: 9px; Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; font-weight: bold; padding: 2px}
 
-.bluebox2 {font: 12px Arial, Helvetica, verdana; border: 1px solid #336699; padding: 6px; background-color: #EEEEEE}
 
 .bluebox {font: 12px Arial, Helvetica, verdana; border: 1px solid #336699; padding: 6px; background-color: #BCD0ED}
 
 
-.blueboxwhite {font: 11px Arial, Helvetica, verdana; border: 1px solid #336699; padding: 6px; background-color: #EEEEEE}
 
 .newheadline {
 	font-size: 13pt;
