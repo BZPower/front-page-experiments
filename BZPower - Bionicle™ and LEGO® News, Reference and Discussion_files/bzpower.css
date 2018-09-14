@@ -13,8 +13,8 @@ a:hover { text-decoration:underline; color:#000000 }
 .source {font: 9px Verdana,Arial,Helvetica; color: #666666}
 .newstext {font: 12px Arial,Helvetica,sans-serif; padding-top: 2px}
 .mainheader {padding: 3px; font: 14px Verdana,Arial,Helvetica; font-weight: bold; color: #FFFFFF; background-color: #336699; text-align: center; border-top: 1px solid #336699; border-left: 1px solid #336699; border-right: 1px solid #336699; border-bottom: 1px solid #336699;  }
-.dayhead {font: 9px Verdana, Arial, Helvetica; font-weight: bold; color: #336699; border: 1px solid #336699; padding: 1px; text-align: center; background-color: #CCCCCC; margin-bottom: 6px}
-/* .snippetbox {border: 1px solid #336699; padding: 4px; background-color: #EEEEFF; margin-bottom: 6px; margin-top: 6px} */
+.dayhead {font: 9px Verdana, Arial, Helvetica; font-weight: bold; color: #336699; padding: 1px; text-align: center; background-color: #CCCCCC; margin-bottom: 6px}
+/* .snippetbox {padding: 4px; background-color: #EEEEFF; margin-bottom: 6px; margin-top: 6px} */
 .snippetbox {border-top: 1px solid #336699; padding-top: 9px; padding-bottom: 4px; margin-bottom: 10px; margin-top: 6px}
 .snippethead {font: 13px Verdana, Arial, Helvetica, sans-serif; color: #336699; font-weight: bold; font-style: italic; margin-bottom: 4px}
 .snippet {font: 9 Verdana,Arial,Helvetica}
@@ -26,7 +26,7 @@ a:hover { text-decoration:underline; color:#000000 }
 .bluefoot {background-color: #336699; font: 9px; Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; font-weight: bold; padding: 2px}
 
 
-.bluebox {font: 12px Arial, Helvetica, verdana; border: 1px solid #336699; padding: 6px; background-color: #BCD0ED}
+.bluebox {font: 12px Arial, Helvetica, verdana; padding: 6px; background-color: #BCD0ED}
 
 
 

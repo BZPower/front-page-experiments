@@ -64,6 +64,7 @@ sed -i -e 's/#990000/#336699/g' "$CSS"
 # Remove dead classes (including newly dead)
 sed -i -e '/blueboxwhite/d' "$CSS"
 sed -i -e '/bluebox2/d' "$CSS"
+sed -i -e 's/border: 1px solid #336699; //' "$CSS"
 
 
 
