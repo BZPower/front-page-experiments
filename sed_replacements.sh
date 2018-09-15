@@ -65,8 +65,10 @@ sed -i -e 's/#990000/#336699/g' "$CSS"
 sed -i -e '/blueboxwhite/d' "$CSS"
 sed -i -e '/bluebox2/d' "$CSS"
 sed -i -e 's/border: 1px solid #336699; //' "$CSS"
+sed -i -e 's/BECFED/3D7CBA/g' "$CSS"
 
-
+# Change things that should be in CSS that are also in HTML
+sed -i -e 's/BECFED/3D7CBA/g' "$FRONTPAGE"
 
 
 
