@@ -57,6 +57,7 @@ sed -i "$FRONTPAGE" -e '
 
 # Don't use class blueboxwhite - that's just crazy talk
 sed -i 's/blueboxwhite/bluebox/g' "$FRONTPAGE"
+sed -i '/rowspan/d' "$FRONTPAGE"
 
 # Change the CSS
 # This will make the code even messier, since it rips the red from the "redfoot" and "redleft" classes...
